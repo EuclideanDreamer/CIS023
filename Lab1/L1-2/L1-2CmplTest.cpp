@@ -1,37 +1,38 @@
 #include <iostream>
 #include <string>
-#include "patientType.h"
-#include "billType.h"
+#include "header.h"
 
 using namespace std;
 
 int main()
 {
     patientType newPatient;
-    newPatient.setInfo();
+    newPatient.setInfo("1000", "bob", "sob", 14, 04, 1996, 
+                        "Lenord", "McCoy", "Eng", 12,
+                        10, 1999, 04, 10, 1877);
     newPatient.setID("1234");
     
 	string x = newPatient.getID();
     
-	int a;
-	newPatient.setBirthDate();
+    int a;
+	newPatient.setBirthDate(12, 12, 1977);
 	a=newPatient.getBirthDay();
     a=newPatient.getBirthMonth();
     a=newPatient.getBirthYear();
 
-    newPatient.setDoctorName();
-    newPatient.setDoctorSpl();
+    newPatient.setDoctorName("Lenoard", "McCoy");
+    newPatient.setDoctorSpl("Eng");
     x=newPatient.getDoctorFName();
     x=newPatient.getDoctorLName();
 
     x=newPatient.getDoctorSpl();
 
-    newPatient.setAdmDate();
+    newPatient.setAdmDate( 2, 17, 2019);
     a=newPatient.getAdmDay();
     a=newPatient.getAdmMonth();
     a=newPatient.getAdmYear();
 
-    newPatient.setDisDate();
+    newPatient.setDisDate(2, 19, 2019);
     a=newPatient.getDisDay();
     a=newPatient.getDisMonth();
     a=newPatient.getDisYear();
@@ -39,26 +40,28 @@ int main()
     patientType y();
 
 	billType newBill;
-    newBill.setInfo();
+    newBill.setInfo("1000", 200.0, 500.0, 25.0);
 
     newBill.setID("1234");
     x=newBill.getID();
 
-    newBill.setPharmacyCharges();
+    newBill.setPharmacyCharges(22.33);
     double b=newBill.getPharmacyCharges();
-    newBill.updatePharmacyCharges();
+    newBill.updatePharmacyCharges(55.55);
 
-    newBill.setRoomRent();
+    newBill.setRoomRent(500.00);
     b=newBill.getRoomRent();
-    newBill.updateRoomRent();
+    newBill.updateRoomRent(500.00);
 
-    newBill.setDoctorFee();
+    newBill.setDoctorFee(2500.00);
     b=newBill.getDoctorFee();
-    newBill.updateDoctorFee();
+    newBill.updateDoctorFee(799.00);
 
     b= newBill.billingAmount();
-
-	system("pause");
+    
+    newBill.printBill();
+    system("read");
+	//system("pause");
     
     return 0;
 }

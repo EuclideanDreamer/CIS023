@@ -7,8 +7,11 @@ int main()
 {
 	float x, y;
 	clock_t time_req;
+	
 	// Using pow function
+
 	time_req = clock();		//Get the Starting Time in Microseconds
+	
 	for (int i = 0; i < 100000; i++)
 	{
 		y = log(pow(i, 5));

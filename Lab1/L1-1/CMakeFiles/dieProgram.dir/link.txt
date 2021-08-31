@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/dieProgram.dir/die.cpp.o CMakeFiles/dieProgram.dir/main.cpp.o  -o dieProgram 

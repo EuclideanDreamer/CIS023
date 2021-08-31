@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/booboo/Documents/Code/CIS023/Lab1/L1-3/ch3sortTest.cpp
+test.h
+/home/booboo/Documents/Code/CIS023/Lab1/L1-3/test.h
+
+/home/booboo/Documents/Code/CIS023/Lab1/L1-3/ch3sortTest.h
+algorithm
+-
+iostream
+-
+ctime
+-
+cmath
+-
+algorithm
+-
+
+/home/booboo/Documents/Code/CIS023/Lab1/L1-3/test.h
+ch3sortTest.h
+/home/booboo/Documents/Code/CIS023/Lab1/L1-3/ch3sortTest.h
+
