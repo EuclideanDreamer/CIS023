@@ -1,3 +1,0 @@
-/home/booboo/Documents/Code/CIS023/Lab1/L1-2/CMakeFiles/rebuild_cache.dir
-/home/booboo/Documents/Code/CIS023/Lab1/L1-2/CMakeFiles/TestProgram.dir
-/home/booboo/Documents/Code/CIS023/Lab1/L1-2/CMakeFiles/edit_cache.dir

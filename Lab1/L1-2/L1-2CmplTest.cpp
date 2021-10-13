@@ -1,11 +1,12 @@
 #include <iostream>
 #include <string>
-#include "header.h"
+#include "L1-2.h"
 
 using namespace std;
 
 int main()
 {
+    std::cout << “Bailey Nichols\t“ << “L 1-2\t“ << “L1-2.exe“ << std::endl;
     patientType newPatient;
     newPatient.setInfo("1000", "bob", "sob", 14, 04, 1996, 
                         "Lenord", "McCoy", "Eng", 12,
