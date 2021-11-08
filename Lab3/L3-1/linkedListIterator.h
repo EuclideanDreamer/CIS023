@@ -1,3 +1,30 @@
+/*
+'* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+'* Program name    :                                                   * 
+'*                                                                     * 
+'* Written by      : Bailey Nichols                                     * 
+'*                                                                     * 
+'* Purpose         :                                   * 
+'*                                                                     * 
+'* Inputs          :    
+'*                                                                     * 
+'* Outputs         : 
+'*                                                                     * 
+'* Calls           :  
+'*                                                                     * 
+'* Structure       : BEGIN                                             * 
+'*                        
+'*                   STOP                                              * 
+'*                        End of Program                               * 
+'*                                                                     * 
+'*---------------------------------------------------------------------* 
+'* Change Log:                                                         * 
+'*                         Revision                                    * 
+'*       Date    Changed  Rel Ver Mod Purpose                          * 
+'* 06/06/12      Nichols 000.000.000 Initial release of program       * 
+'*                                                                     * 
+'* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*/
 //from textbook pg 1101 see notes for ref
 #ifndef H_listIterator
 #define H_listIterator

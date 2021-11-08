@@ -1,27 +1,14 @@
 /*
 '* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-'* Program name    :                                                   * 
+'* Program name    : orderedLinkedList.h       
 '*                                                                     * 
 '* Written by      : Bailey Nichols                                     * 
-'*                                                                     * 
-'* Purpose         :                                   * 
-'*                                                                     * 
-'* Inputs          :    
-'*                                                                     * 
-'* Outputs         : 
-'*                                                                     * 
-'* Calls           :  
-'*                                                                     * 
-'* Structure       : BEGIN                                             * 
-'*                        
-'*                   STOP                                              * 
-'*                        End of Program                               * 
 '*                                                                     * 
 '*---------------------------------------------------------------------* 
 '* Change Log:                                                         * 
 '*                         Revision                                    * 
 '*       Date    Changed  Rel Ver Mod Purpose                          * 
-'* 06/06/12      Nichols 000.000.000 Initial release of program       * 
+'* 11/08/12      Nichols 000.000.000 Initial release of program       * 
 '*                                                                     * 
 '* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 */
@@ -29,9 +16,9 @@
 //program defiend in textbook see notes for refrence 
 #ifndef H_orderedList
 #define H_orderedList
-#include "unorderedLinkedList.h"
+#include "linkedList.h"
 template<typename Type>//why no typename? 
-class orderedLinkedList:public linkedListType<Type>{
+class orderedLinkedList:public linkedList<Type>{
 public:
     bool search(const Type& searchItem)const;
     //bool returned if item is in list or not

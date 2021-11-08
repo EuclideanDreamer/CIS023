@@ -1,37 +1,23 @@
 /*
 '* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
-'* Program name    :                                                   * 
+'* Header Name     : Unorderedlinkedlist.h                             * 
 '*                                                                     * 
-'* Written by      : Bailey Nichols                                     * 
-'*                                                                     * 
-'* Purpose         :                                   * 
-'*                                                                     * 
-'* Inputs          :    
-'*                                                                     * 
-'* Outputs         : 
-'*                                                                     * 
-'* Calls           :  
-'*                                                                     * 
-'* Structure       : BEGIN                                             * 
-'*                        
-'*                   STOP                                              * 
-'*                        End of Program                               * 
-'*                                                                     * 
+'* Written by      : Bailey Nichols                                    * 
 '*---------------------------------------------------------------------* 
 '* Change Log:                                                         * 
 '*                         Revision                                    * 
 '*       Date    Changed  Rel Ver Mod Purpose                          * 
-'* 06/06/12      Nichols 000.000.000 Initial release of program       * 
+'* 11/08/12      Nichols 000.000.000 Initial release of program       * 
 '*                                                                     * 
 '* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 */
 //from page 1111 of textbook (paraphased): 
 #ifndef H_unorderedListType
 #define H_unorderedListType
-#include "linkedListType.h"
+#include "linkedList.h"
 
 template<class Type>
-class unorderedLinkedList:public linkedListType<Type> {
+class unorderedLinkedList:public linkedList<Type> {
 public:
     bool search(const Type& searchItem) const;
     //bool to see if item is list 

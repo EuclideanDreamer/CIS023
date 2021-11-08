@@ -1,3 +1,30 @@
+/*
+'* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+'* Header    :         LinkedlistType,h                                     * 
+'*                                                                     * 
+'* Written by      : Bailey Nichols                                     * 
+'*                                                                     * 
+'* Purpose         :                                   * 
+'*                                                                     * 
+'* Inputs          :    
+'*                                                                     * 
+'* Outputs         : 
+'*                                                                     * 
+'* Calls           :  
+'*                                                                     * 
+'* Structure       : BEGIN                                             * 
+'*                        
+'*                   STOP                                              * 
+'*                        End of Program                               * 
+'*                                                                     * 
+'*---------------------------------------------------------------------* 
+'* Change Log:                                                         * 
+'*                         Revision                                    * 
+'*       Date    Changed  Rel Ver Mod Purpose                          * 
+'* 06/06/12      Nichols 000.000.000 Initial release of program       * 
+'*                                                                     * 
+'* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*/
 //defined on page 1104-1105 in text see notes for ref
 #ifndef H_listType
 #define H_listType

@@ -1,3 +1,19 @@
+/*
+'* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+'* Header name    :      linkedList.h                   * 
+'*                                                                     * 
+'* Written by      : Bailey Nichols                                     * 
+'*                                                                     * 
+'* Purpose         :         no idea this could just be a struct really*                              * 
+'*                                                                     * 
+'*---------------------------------------------------------------------* 
+'* Change Log:                                                         * 
+'*                         Revision                                    * 
+'*       Date    Changed  Rel Ver Mod Purpose                          * 
+'* 06/06/12      Nichols 000.000.000 Initial release of program       * 
+'*                                                                     * 
+'* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*/
 // class linkedList.h
 // as defined by page 1100-oooo (refrence in notes)
 //
@@ -12,6 +28,4 @@ protected://why? why shouldn't it be 'public'
 	nodeType<Type> *last;//pointer to last
 };
 //
-
-
 #endif
